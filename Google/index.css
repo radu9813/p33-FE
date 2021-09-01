@@ -1,3 +1,30 @@
+body{
+    margin: 0;
+
+}
+a {
+    margin: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+}
+
+.profilePic{
+    width: 35px;
+    height: 34px;
+    align-self:flex-end;
+    border-radius:30px ;
+}
 img {
     width: 384px;
     height: 216px;
@@ -9,7 +36,7 @@ img {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    border: 5px solid #FFFF00;
+    
     padding: 10px;
     flex-wrap: wrap;
     vertical-align: center;
@@ -28,4 +55,9 @@ img {
     padding-inline-start: 52px;
     position: relative;
     width: 100%;
+}
+
+.searchBar{
+    border: 3px solid #242424;
+    border-radius: 30px;
 }

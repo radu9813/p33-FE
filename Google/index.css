@@ -33,9 +33,11 @@ ul > a, ul > img{
     border-radius:30px ;
 }
 .googleLogoImage {
-    width: 384px;
-    height: 216px;
-    align-self:flex-end;
+    display: flex;
+    width: 272px;
+    height: 92px;
+    margin-left: 20%;
+    
 }
 
 .middleContainer{
@@ -71,7 +73,7 @@ footer {
 .bottomfooter ul{
     display: flex;
     align-items: center;
-    padding-right: 10px
+    padding-right: 10px;
 }
 .centered input{
     background-color: var(--search-box-bg, white);
@@ -89,8 +91,14 @@ footer {
 }
 
 .searchBar{
-    border: 3px solid #242424;
-    border-radius: 30px;
+    background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
 }
 
 .centered {
@@ -99,4 +107,26 @@ footer {
   top: 35%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.centerButtons{
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 18px;
+    top: 53px;
+    z-index: 0;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
 }

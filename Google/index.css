@@ -1,13 +1,15 @@
 body{
     margin: 0;
-
+    font-family: arial, sans-serif;
 }
 a {
     margin: 5px;
     text-decoration: none;
     color: black;
 }
-
+a:hover{
+    text-decoration: underline;
+}
 nav {
     display: flex;
     justify-content: space-between;
@@ -16,6 +18,11 @@ nav {
 .nav-header{
     display: flex;
     justify-content: flex-end;
+}
+
+#myApps:hover{
+    border-radius: 200px;
+    box-shadow: 0 0 10px gainsboro;
 }
 ul{
     display: flex;
@@ -91,16 +98,17 @@ footer {
 }
 
 .searchBar{
-    background: #fff;
     display: flex;
-    border: 1px solid #dfe1e5;
-    box-shadow: none;
-    border-radius: 24px;
-    z-index: 3;
-    height: 44px;
-    margin: 0 auto;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 600px;
+    height: 38px;
+    border: 1px solid gainsboro;
+    border-radius: 20px;
 }
-
+.searchBar:hover{
+    box-shadow: 0 0 10px gainsboro;
+}
 .centered {
   position: fixed;
   align-items: center;

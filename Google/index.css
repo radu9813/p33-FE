@@ -1,143 +1,155 @@
-body{
-    margin: 0;
-    font-family: arial, sans-serif;
+body {
+  margin: 0;
+  font-family: arial, sans-serif;
 }
+
 a {
-    margin: 5px;
-    text-decoration: none;
-    color: black;
+  margin: 5px;
+  text-decoration: none;
+  color: black;
 }
-a:hover{
-    text-decoration: underline;
+
+a:hover {
+  text-decoration: underline;
 }
+
 nav {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
-.nav-header{
-    display: flex;
-    justify-content: flex-end;
+.nav-header {
+  display: flex;
+  justify-content: flex-end;
 }
 
-#myApps:hover{
-    border-radius: 200px;
-    box-shadow: 0 0 10px gainsboro;
+#myApps:hover {
+  border-radius: 200px;
+  box-shadow: 0 0 10px gainsboro;
 }
-ul{
-    display: flex;
-    align-items: center;
-    padding-right: 10px;
+ul {
+  display: flex;
+  align-items: center;
+  padding-right: 10px;
 }
 
-ul > a, ul > img{
-    padding: 4px;
+ul > a,
+ul > img {
+  padding: 4px;
 }
-.profilePic{
-    width: 32px;
-    height: 32px;
-    align-self:flex-end;
-    border-radius:30px ;
+.profilePic {
+  width: 32px;
+  height: 32px;
+  align-self: flex-end;
+  border-radius: 30px;
 }
 .googleLogoImage {
-    display: flex;
-    width: 272px;
-    height: 92px;
-    margin-left: 20%;
-    
+  display: flex;
+  width: 272px;
+  height: 92px;
 }
 
-.middleContainer{
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    
-    padding: 10px;
-    flex-wrap: wrap;
-    vertical-align: center;
+.middleContainer {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  padding: 10px;
+  flex-wrap: wrap;
+  vertical-align: center;
 }
 footer {
-    background-color: #f2f2f2;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+  background-color: #f2f2f2;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
-.topFooter{
-    border-bottom: 1px solid #dadce0;
-    line-height: 40px;
+.topFooter {
+  border-bottom: 1px solid #dadce0;
+  line-height: 40px;
 }
 
-.topFooter a{
-    margin-left : 27px;
-    padding-left: 27px;
+.topFooter a {
+  margin-left: 27px;
+  padding-left: 27px;
 }
 
-.bottomfooter{
-    line-height: 40px;
+.bottomfooter {
+  line-height: 40px;
 }
-.bottomfooter ul{
-    display: flex;
-    align-items: center;
-    padding-right: 10px;
+.bottomfooter ul {
+  display: flex;
+  align-items: center;
+  padding-right: 10px;
 }
-.centered input{
-    background-color: var(--search-box-bg, white);
-    border: none;
-    border-radius: calc(0.5 * var(--ntp-realbox-height));
-    color: var(--search-box-text);
-    font-family: inherit;
-    font-size: inherit;
-    height: 100%;
-    outline: none;
-    padding-inline-end: 44px;
-    padding-inline-start: 52px;
-    position: relative;
-    width: 100%;
+.centered input {
+  background-color: var(--search-box-bg, white);
+  border: none;
+  border-radius: calc(0.5 * var(--ntp-realbox-height));
+  color: var(--search-box-text);
+  font-family: inherit;
+  font-size: inherit;
+  height: 100%;
+  outline: none;
+  padding-inline-end: 44px;
+  padding-inline-start: 52px;
+  position: relative;
+  width: 100%;
 }
 
-.searchBar{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 600px;
-    height: 38px;
-    border: 1px solid gainsboro;
-    border-radius: 20px;
+.searchBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 600px;
+  height: 38px;
+  border: 1px solid gainsboro;
+  border-radius: 20px;
 }
-.searchBar:hover{
-    box-shadow: 0 0 10px gainsboro;
+.searchBar:hover {
+  box-shadow: 0 0 10px gainsboro;
 }
 .centered {
   position: fixed;
   align-items: center;
+  display: flex;
+  flex-direction: column;
   top: 35%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-.centerButtons{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding-top: 53px;
+.centerButtons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 53px;
 }
 
 button {
-    background-color: #f8f9fa;
-    border-radius: 5px;
-    border: none;
-    min-width: 54px;
-    height: 36px;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-left: 4px;
-    margin-right: 4px;
+  background-color: #f8f9fa;
+  border-radius: 5px;
+  border: none;
+  min-width: 54px;
+  height: 36px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 4px;
+  margin-right: 4px;
 }
 
 button:hover {
-    cursor: pointer;
-    box-shadow: 0 0 10px gainsboro;
-    
+  cursor: pointer;
+  box-shadow: 0 0 10px gainsboro;
+}
+
+.subText{
+    padding-top: 43px;
+}
+
+.subText a{
+    color: #1a0dab;
+    text-decoration: none;
 }
